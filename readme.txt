@@ -2,6 +2,7 @@
 Contributors: bradparbs
 Donate link: http://bradparbs.com/
 Tags: text, resize, resizer, text resizing, increase font size
+Stable Tag: trunk
 Requires at least: 3.2
 Tested up to: 3.3.2
 License: GPLv2
@@ -26,6 +27,10 @@ Go wild!
 4. OR Add wpTextResizeControls(0) to your template for the controls to be automatically styled, or wpTextResizeControls(1) to manually style. When manually styling, wpTextResizeControls is the container, and increaseFont, resetFont, and decreaseFont are all anchors you can target.
 
 == Changelog ==
+
+= 1.5 =
+
+* Bug fixes
 
 = 1.4 = 
 
