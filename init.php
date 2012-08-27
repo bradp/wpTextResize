@@ -1,6 +1,6 @@
-<?
+<?php
 /*
-Plugin Name: easyTextResizer
+Plugin Name: wpTextResize
 Description: Use the [wpResize] shortcode wherever you want the resizing controls to show up.
 Version: 1.2
 Author: Brad Parbs
