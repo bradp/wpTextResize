@@ -8,14 +8,14 @@ Tested up to: 3.3.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-wpTextResize is an easy to use template tag to generate Increase, Decrease, reset font size controls for body text on a WordPress site.
+wpTextResize is an easy to use way to have Increase, Decrease, reset font size controls for body text on a WordPress site.
 
 == Description ==
-wpTextResize is an easy to use template tag to generate Increase, Decrease, reset font size controls for body text on a WordPress site.
+wpTextResize is an easy to use way to have Increase, Decrease, reset font size controls for body text on a WordPress site.
 
-Just use the [wpResize] shortcode wherever you want the controls to show up.
+Just use the [wpResize] shortcode wherever you want the controls to show up. Or use the widget to place it in a sidebar.
 
-You can also add wpTextResizeControls(0) to your template for the controls to be automatically styled, or wpTextResizeControls(1) to manually style. When manually styling, wpTextResizeControls is the container, and increaseFont, resetFont, and decreaseFont are all anchors you can target.
+Theme creators: You can also add wpTextResizeControls(0) to your template for the controls to be automatically styled, or wpTextResizeControls(1) to manually style. When manually styling, wpTextResizeControls is the container, and increaseFont, resetFont, and decreaseFont are all anchors you can target.
 
 Go wild!
 
@@ -24,12 +24,15 @@ Go wild!
 1. Upload the plugin to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Add the [wpResize] shortcode wherever you want the controls to appear.
-4. OR Add wpTextResizeControls(0) to your template for the controls to be automatically styled, or wpTextResizeControls(1) to manually style. When manually styling, wpTextResizeControls is the container, and increaseFont, resetFont, and decreaseFont are all anchors you can target.
+4. You can also use the widget to place it in a sidebar.
+5. OR Add wpTextResizeControls(0) to your template for the controls to be automatically styled, or wpTextResizeControls(1) to manually style. When manually styling, wpTextResizeControls is the container, and increaseFont, resetFont, and decreaseFont are all anchors you can target.
 
 == Changelog ==
 
 = 1.5 =
 
+* Added a widget
+* When hover over one of the controls, the cursor changes to a hand
 * Bug fixes
 
 = 1.4 = 
